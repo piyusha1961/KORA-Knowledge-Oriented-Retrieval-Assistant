@@ -1,0 +1,53 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+venv/
+.venv/
+env/
+
+# ==============================
+# macOS
+# ==============================
+
+.DS_Store
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# RAG Generated Data
+# ==============================
+
+vector_db/
+data/uploaded_pdfs/
+
+# Personal document registry
+data/document_registry.json
+
+# ==============================
+# Python / Tool Caches
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+
+# ==============================
+# Logs
+# ==============================
+
+*.logdata/sample_pdfs/
+data/document_registry.json
+data/sample_pdfs/
